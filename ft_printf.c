@@ -6,10 +6,10 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 14:59:30 by aroualid          #+#    #+#             */
-/*   Updated: 2023/11/28 15:09:24 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/11/28 17:40:25 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <libft.h>
 
-int	ft_printf(const	char *,)
+int	ft_printf(const	char *, va_arg )

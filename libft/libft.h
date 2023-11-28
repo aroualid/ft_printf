@@ -6,13 +6,14 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 14:18:27 by aroualid          #+#    #+#             */
-/*   Updated: 2023/11/28 17:16:49 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/11/28 17:41:37 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <stdarg.h>
 # include <stddef.h>
 # include <unistd.h>
 # include <stdlib.h>
@@ -58,6 +59,8 @@ char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_itoa(int n);
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-void	ft_putnbr_base(int nbr, char *base);
+void	ft_putnbr_base(int nbr, char *base);6 days left
+6 days left
+
 
 #endif
