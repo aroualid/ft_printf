@@ -1,5 +1,5 @@
 *.o
-printf.a
+libftprintf.a
 a.out
 printfTester
 .vscode
