@@ -1,8 +1,0 @@
-*.o
-libftprintf.a
-a.out
-ft_printf_tester
-printfTester
-.vscode
-.dist
-*.pdf

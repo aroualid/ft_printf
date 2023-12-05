@@ -6,12 +6,11 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 14:59:30 by aroualid          #+#    #+#             */
-/*   Updated: 2023/12/05 13:58:44 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/12/05 14:11:06 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
 
 size_t	ft_strlen(const char *s)
 {
