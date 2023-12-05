@@ -1,8 +1,7 @@
 *.o
-libft.a
+printf.a
 a.out
 printfTester
 .vscode
 .dist
 *.pdf
-.gitignore
