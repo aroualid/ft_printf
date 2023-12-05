@@ -6,13 +6,24 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 14:59:30 by aroualid          #+#    #+#             */
-/*   Updated: 2023/12/05 13:52:01 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/12/05 13:58:44 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdarg.h>
 
+
+size_t	ft_strlen(const char *s)
+{
+	size_t	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
 
 int	ft_handle_p(void *ptr)
 {
@@ -41,7 +52,7 @@ int	ft_print(const char *cc, va_list list)
 	if (*cc == 's')
 		n += ft_putstr(va_arg(list, char *));
 	if (*cc == 'p')
-		n +=ft_handle_p(va_arg(list, void *));
+		n += ft_handle_p(va_arg(list, void *));
 	if (*cc == 'd')
 		n += ft_putnbr(va_arg(list, int));
 	if (*cc == 'i')
@@ -59,7 +70,7 @@ int	ft_print(const char *cc, va_list list)
 
 int	ft_printf(const	char *c, ...)
 {
-	size_t		i;
+	size_t	i;
 	va_list	list;
 	int		j;
 

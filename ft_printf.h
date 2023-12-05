@@ -6,7 +6,7 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 16:54:47 by aroualid          #+#    #+#             */
-/*   Updated: 2023/12/05 13:51:27 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/12/05 13:58:34 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ int		ft_putnbr_base(unsigned int nbr, char *base);
 int		ft_putnbr(long long nbr);
 int		ft_putstr(char *s);
 size_t	ft_strlen(const char *s);
-char	*ft_strstr(char *str, char *to_find);
 int		ft_handle_p(void*ptr);
 
 #endif
