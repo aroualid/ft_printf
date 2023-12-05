@@ -6,7 +6,7 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 13:54:15 by aroualid          #+#    #+#             */
-/*   Updated: 2023/12/05 14:17:49 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/12/05 14:25:07 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,10 +82,7 @@ int	ft_putstr(char *s)
 	int	i;
 
 	if (s == NULL)
-	{
-		write(1, "(null)", 6);
-		return (6);
-	}
+		return (write(1, "(null)", 6));
 	j = ft_strlen(s);
 	i = 0;
 	while (s[i] != '\0')
