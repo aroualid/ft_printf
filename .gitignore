@@ -1,0 +1,8 @@
+*.o
+libft.a
+a.out
+printfTester
+.vscode
+.dist
+sujet.pdf
+.gitignore

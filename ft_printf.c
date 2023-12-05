@@ -6,7 +6,7 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 14:59:30 by aroualid          #+#    #+#             */
-/*   Updated: 2023/12/01 18:05:46 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/12/05 13:52:01 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int	ft_print(const char *cc, va_list list)
 	if (*cc == 'c')
 		n += ft_putchar((char)va_arg(list, int));
 	if (*cc == 's')
-		n += ft_putstr_fd(va_arg(list, char *), 1);
+		n += ft_putstr(va_arg(list, char *));
 	if (*cc == 'p')
 		n +=ft_handle_p(va_arg(list, void *));
 	if (*cc == 'd')
