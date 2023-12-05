@@ -6,7 +6,7 @@
 /*   By: aroualid <aroualid@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 14:59:30 by aroualid          #+#    #+#             */
-/*   Updated: 2023/12/05 14:11:06 by aroualid         ###   ########.fr       */
+/*   Updated: 2023/12/05 14:13:39 by aroualid         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,6 +75,8 @@ int	ft_printf(const	char *c, ...)
 
 	i = 0;
 	j = 0;
+	if (c == NULL)
+		return (-1);
 	va_start(list, c);
 	while (i < ft_strlen(c))
 	{
